@@ -1,0 +1,27 @@
+﻿# Node dependencies and generated builds
+node_modules/
+dist/
+build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Java/Maven build output
+target/
+
+# Local Maven installation
+apache-maven-3.10.0/
+capiq-backend/apache-maven-3.10.0/
+
+# Logs and operating system files
+*.log
+.DS_Store
+Thumbs.db
